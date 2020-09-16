@@ -7,3 +7,5 @@ def cwd():
 
 with open(f'{cwd()}/test.txt', 'a') as file:
     file.write(f'test {datetime.now()}\n')
+    
+    print('nice')
